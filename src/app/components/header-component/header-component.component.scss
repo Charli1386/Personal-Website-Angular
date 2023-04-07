@@ -1,0 +1,31 @@
+.container-fluid:first-child
+{
+    height: 150px;
+    position: relative;
+
+    .header-img
+    {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+
+        background-color: burlywood;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translateX(-50%);
+
+        z-index: 10;
+    }
+
+}
+
+.container-fluid
+{
+    height: auto;
+    text-align: center;
+    position: relative;
+
+    padding-top: 75px;
+}
