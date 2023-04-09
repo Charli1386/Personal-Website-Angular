@@ -1,4 +1,6 @@
 @import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Schibsted+Grotesk&display=swap');
+
 
 body
 {
@@ -6,11 +8,12 @@ body
     background-image: url('assets/images/body-bg.jpg');
     background-position: center;
     background-attachment: fixed;
+    font-family: 'Schibsted Grotesk', sans-serif;
 
     .background-overlay:before
     {
         content: '';
-        position: absolute;
+        position: fixed;
         top: 0; 
         left: 0;   
         right: 0;   
@@ -28,9 +31,16 @@ body
         background: inherit;
     }
 
+    .text-special
+    {
+        font-family: 'Dancing Script', cursive;
+    }
+
 }
 
 h1, h2, h3, h4, h5, h6, p { padding: 0; margin: 0; }
+
+
 
 @media screen and (max-width: 960px) {
     body
