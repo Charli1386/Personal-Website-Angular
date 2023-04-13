@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-work-component',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./work-component.component.scss']
 })
 export class WorkComponentComponent {
-
+  @Input() bg_img: any = "";
 }

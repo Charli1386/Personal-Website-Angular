@@ -7,6 +7,8 @@ import { HeaderComponentComponent } from './components/header-component/header-c
 import { HomeComponentComponent } from './components/home-component/home-component.component';
 import { AboutComponentComponent } from './components/about-component/about-component.component';
 import { WorkComponentComponent } from './components/work-component/work-component.component';
+import { PortfolioComponentComponent } from './components/portfolio-component/portfolio-component.component';
+import { ContactComponentComponent } from './components/contact-component/contact-component.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { WorkComponentComponent } from './components/work-component/work-compone
     HeaderComponentComponent,
     HomeComponentComponent,
     AboutComponentComponent,
-    WorkComponentComponent
+    WorkComponentComponent,
+    PortfolioComponentComponent,
+    ContactComponentComponent
   ],
   imports: [
     BrowserModule,

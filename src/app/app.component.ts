@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  image_src: string[] = ["assets/images/header-pic.png", "assets/images/header-bg.jpg"]
+  image_src: string[] = ["assets/images/header-pic.png", "assets/images/header-bg.jpg", "assets/images/work-bg.jpg"]
   image_objects: any[] = []
 
   preload_images = (image_src:string[]) => {
